@@ -24,16 +24,28 @@ main {
   padding: 20px;
 }
 
+.hero {
+  color: #111111;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
 .hero h1 {
-  font-size: 24px;
-  color: navy;
-  margin-bottom: 10px;
+  font-size: 24pt;
+}
+
+.hero p {
+  font-size: 12pt;
+  font-style: italic;
 }
 
 .features {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 
 .feature {
@@ -50,7 +62,7 @@ main {
 
 button {
   padding: 10px 20px;
-  background-color: navy;
+  background-color: darkolivegreen;
   color: white;
   border: none;
   border-radius: 5px;
@@ -59,6 +71,9 @@ button {
 
 footer {
   padding: 20px;
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
   background-color: #f0f0f0;
+  position: relative;
 }
