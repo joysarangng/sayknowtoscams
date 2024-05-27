@@ -3,39 +3,63 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Scam Protection</title>
+<title>Say kNOw to Scams</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 <header>
     <input type="search" placeholder="Search">
 </header>
+
 <main>
-    <section class="hero">
-        <h1>Stay safe from scams and frauds</h1>
-        <p>Join 1.5 million people who use our app to stay safe online.</p>
+    <div class="hero">
+        <img src="./images/header-dark.png" alt="header" class="item image">
+        <section class="item text"><h1>Know how you're protected,<br>so you can say No to scams</h1></section>
+    </div>
+
+    <div class="container">
+        <section class="preamble">
+            <h2>Everything you need to know in one place</h2><br><br>
+            <p>Scam tactics are constantly evolving. New safeguards are regularly introduced. Can't keep up? <br><br><br>
+                <a href="#measures" id="covered">We've got you covered.</a></p>
+        </section>
+        
+        <section id="measures">
+            <h2>Find out how you can stay protected against scams</h2><br><br>
+            <p>Stop scammers from reaching you via calls and SMS.
+                Detect and stop dangerous file downloads.
+                Secure your funds and bank accounts.
+            </p><br><br>
+            <a href="./pages/safeguards.html" class="learn">Learn more</a>
+        </section>
+
+        <section class="latest">
+            <h2>Learn about the latest scam types</h2><br><br>
+            <p>Spot the signs. Avoid scams.</p><br><br>
+            <a href="./pages/latestscamtypes.html" class="learn">Learn more</a>
+        </section>
+
+        <section class="latest">
+            <h4>Top 5 scam types in May 2024:</h4><br>
+        <div class="slideshow-container">
+            <div class="slides">
+              <div class="slide"><img src="./images/jobscam.png"></div>
+              <div class="slide"><img src="./images/ecommercescam.png"></div>
+              <div class="slide"><img src="./images/phishingscam.png"></div>
+              <div class="slide"><img src="./images/investmentscam.png"></div>
+              <div class="slide"><img src="./images/impersonationscam.png"></div>
+            </div>
+        </div>
     </section>
-    <section class="features">
-        <div class="feature">
-            <h2>Protect your phone</h2>
-            <p>Get alerts about suspicious activities on your phone.</p>
-        </div>
-        <div class="feature">
-            <h2>Block spam calls</h2>
-            <p>Block unwanted calls.</p>
-        </div>
-        <div class="feature">
-            <h2>Stop texting scams</h2>
-            <p>Stop scammers from reaching you.</p>
-        </div>
-    </section>
-    <div class="actions">
-        <button>Sign Up Now</button>
-        <button>Learn More</button>
+          
     </div>
 </main>
+
 <footer>
-    <p>What users are saying</p>
+    <span id="disclaimer">Disclaimer: This website is created for learning purposes only. The information provided here should not be considered professional advice. Please note that we make no guarantees regarding the accuracy, completeness, or reliability of the contents of this website. Any actions you take based on the contents of this website are at your own risk. We are not liable for any losses or damages incurred from the use of this website.</span>
 </footer>
+
+<script src="./slideshow.js"></script>
 </body>
 </html>

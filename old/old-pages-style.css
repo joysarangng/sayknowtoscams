@@ -1,0 +1,80 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+  
+h1 {
+    margin-bottom: 40px;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: center;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid grey;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 7fr 6fr;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+  
+.feature {
+    border-radius: 8px;
+}  
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.third {
+    display: flex;
+    align-items: end;
+    border-radius: 8px;
+}
+
+.option {
+    margin-bottom: 40px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 0 20px;
+}
+
+.icon {
+    color: grey;
+    font-size: 25px;
+    width: 40px;
+}
+
+.elaboration {
+    color: grey;
+}
+
+footer {
+    height: max-content;
+    display: flex !important;
+    width: 100%;
+}
+
+.is-left {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.is-right {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
