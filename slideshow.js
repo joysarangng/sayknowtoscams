@@ -2,12 +2,15 @@ let slideIndex = 0;
 const slides = document.querySelectorAll('.slide');
 const totalSlides = slides.length;
 
+// Looping the slideshow
 function nextSlide() {
   slideIndex++;
   if (slideIndex === totalSlides) {
     slideIndex = 0;
   }
-  updateSlidePosition();
+
+// Moves it to next slide
+  updateSlidePosition(); 
 }
 
 function updateSlidePosition() {
